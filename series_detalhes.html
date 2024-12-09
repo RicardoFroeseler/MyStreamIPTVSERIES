@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes da Série</title>
+    <link rel="stylesheet" href="styles-series.css">
+</head>
+<body>
+    <div id="seriesBackground">
+        <div class="details-container">
+            <div class="series-info">
+                <h1 id="seriesTitle">Título da Série</h1>
+                <p><strong>Sinopse:</strong> <span id="seriesDescription"></span></p>
+                <p><strong>Gêneros:</strong> <span id="seriesGenres"></span></p>
+                <p><strong>Temporadas:</strong> <span id="seriesSeasons"></span></p>
+                <p><strong>Episódios:</strong> <span id="seriesEpisodes"></span></p>
+                <p><strong>Lançamento:</strong> <span id="seriesReleaseDate"></span></p>
+            </div>
+            <div class="player-container">
+                <iframe 
+                    id="videoIframe" 
+                    sandbox="allow-scripts allow-same-origin allow-presentation allow-forms" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <script src="series_detalhes.js"></script>
+</body>
+</html>

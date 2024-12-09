@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#seriesBackground {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.series-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.series-info h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.series-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.player-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
